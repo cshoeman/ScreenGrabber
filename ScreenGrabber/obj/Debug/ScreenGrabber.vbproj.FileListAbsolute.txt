@@ -1,0 +1,12 @@
+C:\Users\Chris\source\repos\ScreenGrabber\ScreenGrabber\bin\Debug\ScreenGrabber.exe
+C:\Users\Chris\source\repos\ScreenGrabber\ScreenGrabber\bin\Debug\ScreenGrabber.pdb
+C:\Users\Chris\source\repos\ScreenGrabber\ScreenGrabber\bin\Debug\ScreenGrabber.xml
+C:\Users\Chris\source\repos\ScreenGrabber\ScreenGrabber\obj\Debug\ScreenGrabber.vbprojAssemblyReference.cache
+C:\Users\Chris\source\repos\ScreenGrabber\ScreenGrabber\obj\Debug\ScreenGrabber.Resources.resources
+C:\Users\Chris\source\repos\ScreenGrabber\ScreenGrabber\obj\Debug\ScreenGrabber.screenShot.resources
+C:\Users\Chris\source\repos\ScreenGrabber\ScreenGrabber\obj\Debug\ScreenGrabber.vbproj.GenerateResource.cache
+C:\Users\Chris\source\repos\ScreenGrabber\ScreenGrabber\obj\Debug\ScreenGrabber.vbproj.CoreCompileInputs.cache
+C:\Users\Chris\source\repos\ScreenGrabber\ScreenGrabber\obj\Debug\ScreenGrabber.exe
+C:\Users\Chris\source\repos\ScreenGrabber\ScreenGrabber\obj\Debug\ScreenGrabber.xml
+C:\Users\Chris\source\repos\ScreenGrabber\ScreenGrabber\obj\Debug\ScreenGrabber.pdb
+C:\Users\Chris\source\repos\ScreenGrabber\ScreenGrabber\obj\Debug\ScreenGrabber.Settings.resources
