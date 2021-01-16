@@ -27,6 +27,9 @@ Partial Class Settings
         Me.optionsScreenShoot = New System.Windows.Forms.ComboBox()
         Me.SettingsOK = New System.Windows.Forms.Button()
         Me.AboutButton = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.DirName = New System.Windows.Forms.Label()
+        Me.DirectorySave = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'Label1
@@ -43,7 +46,7 @@ Partial Class Settings
         Me.optionsScreenShoot.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.optionsScreenShoot.FormattingEnabled = True
         Me.optionsScreenShoot.Items.AddRange(New Object() {"Primary monitor", "All monitors"})
-        Me.optionsScreenShoot.Location = New System.Drawing.Point(108, 6)
+        Me.optionsScreenShoot.Location = New System.Drawing.Point(164, 6)
         Me.optionsScreenShoot.Name = "optionsScreenShoot"
         Me.optionsScreenShoot.Size = New System.Drawing.Size(121, 21)
         Me.optionsScreenShoot.TabIndex = 1
@@ -66,11 +69,40 @@ Partial Class Settings
         Me.AboutButton.Text = "About"
         Me.AboutButton.UseVisualStyleBackColor = True
         '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(93, 127)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.TabIndex = 4
+        Me.Button1.Text = "Exit"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'DirName
+        '
+        Me.DirName.AutoSize = True
+        Me.DirName.Location = New System.Drawing.Point(12, 36)
+        Me.DirName.Name = "DirName"
+        Me.DirName.Size = New System.Drawing.Size(106, 13)
+        Me.DirName.TabIndex = 5
+        Me.DirName.Text = "Save screenshots in:"
+        '
+        'DirectorySave
+        '
+        Me.DirectorySave.Location = New System.Drawing.Point(164, 33)
+        Me.DirectorySave.Name = "DirectorySave"
+        Me.DirectorySave.Size = New System.Drawing.Size(121, 20)
+        Me.DirectorySave.TabIndex = 6
+        Me.DirectorySave.Text = "C:\Users\USER\Pictures\Screenshots\"
+        '
         'Settings
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(297, 162)
+        Me.Controls.Add(Me.DirectorySave)
+        Me.Controls.Add(Me.DirName)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.AboutButton)
         Me.Controls.Add(Me.SettingsOK)
         Me.Controls.Add(Me.optionsScreenShoot)
@@ -78,7 +110,7 @@ Partial Class Settings
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Settings"
-        Me.Text = "Settings"
+        Me.Text = "ScreenGrabber Settings"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -88,4 +120,7 @@ Partial Class Settings
     Friend WithEvents optionsScreenShoot As ComboBox
     Friend WithEvents SettingsOK As Button
     Friend WithEvents AboutButton As Button
+    Friend WithEvents Button1 As Button
+    Friend WithEvents DirName As Label
+    Friend WithEvents DirectorySave As TextBox
 End Class

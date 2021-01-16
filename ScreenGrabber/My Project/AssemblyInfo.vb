@@ -8,11 +8,11 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("Chris Shoeman's Screen Grabber")>
-<Assembly: AssemblyDescription("A little program to save screenshots instead of copying them to the clipboard.")>
-<Assembly: AssemblyCompany("Chris Shoeman")>
+<Assembly: AssemblyTitle("ScreenGrabber")>
+<Assembly: AssemblyDescription("A program that will capture the screen and save it as a file when you press PrintScr.")>
+<Assembly: AssemblyCompany("cshoeman")>
 <Assembly: AssemblyProduct("ScreenGrabber")>
-<Assembly: AssemblyCopyright("Copyright © Chris Shoeman 2019")>
+<Assembly: AssemblyCopyright("")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
